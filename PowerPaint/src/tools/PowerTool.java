@@ -7,7 +7,6 @@
 package tools;
 
 import java.awt.Shape;
-import java.awt.geom.Line2D;
 
 /**
  *
