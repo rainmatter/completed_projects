@@ -1,6 +1,8 @@
 /*
  * TCSS 305 - Winter 2014
  * Assignment 5 - PowerPaint
+ * Based on Assignment by:
+ * Alan Fowler, instructor at UWT
  * 
  * PowerPaintMain
  */
