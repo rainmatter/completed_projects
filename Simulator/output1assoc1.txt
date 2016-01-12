@@ -1,0 +1,50 @@
+run:
+Choose an input file: 
+ 1- 2k, 2- 5k
+1
+Associativity: 1
+CPU1:
+L1i: 	Accesses: 6000	Hits: 4084		Misses: 1916
+			Hit rate: 68.0%	Miss Rate: 31.9%
+L1d: 	Accesses: 2995	Hits: 0		Misses: 2995
+			Hit rate: 0.0%	Miss Rate: 100.0%
+L2: 	Accesses: 4911	Hits: 0		Misses: 4911
+			Hit rate: 0.0%	Miss Rate: 100.0%
+Shared L3: 	Accesses: 9822	Hits: 4384		Misses: 5438
+			Hit rate: 44.6%	Miss Rate: 55.3%
+1LM: 7801		2LM: 7757
+CPU1 Totals:
+	Accesses: 23728	Hits: 8468		Misses: 15260
+			Hit rate: 35.6%	Miss Rate: 64.3%
+
+CPU2:
+L1i: 	Accesses: 6000	Hits: 4084		Misses: 1916
+			Hit rate: 68.0%	Miss Rate: 31.9%
+L1d: 	Accesses: 2995	Hits: 0		Misses: 2995
+			Hit rate: 0.0%	Miss Rate: 100.0%
+L2: 	Accesses: 4911	Hits: 0		Misses: 4911
+			Hit rate: 0.0%	Miss Rate: 100.0%
+SharedL3:
+ 	Accesses: 9822	Hits: 4384		Misses: 5438
+			Hit rate: 44.6%	Miss Rate: 55.3%
+1LM: 7801		2LM: 7757
+
+CPU2 Totals:
+	Accesses: 23728	Hits: 8468		Misses: 15260
+			Hit rate: 35.6%	Miss Rate: 64.3%
+
+Processor Totals: 
+	Accesses: 47456	Hits: 16936		Misses: 30520
+			Hit rate: 35.6%		Miss Rate: 64.3%
+
+Total TTC for traces: 3179330
+Average TTC for instruction traces: 88.0
+
+MESI Transition Matrix
+			To:
+		M	E	S	I
+From:	M	0	1275	3019	0	
+	E	0	0	15012	0	
+	S	4134	0	0	2529	
+	I	0	0	0	0	
+BUILD SUCCESSFUL (total time: 5 seconds)
